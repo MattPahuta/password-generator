@@ -70,7 +70,7 @@ small {
 }
 
 .container {
-  max-width: 800px;
+  max-width: 1000px;
   background-color: var(--clr-dark);
   display: flex;
   flex-direction: column;
@@ -81,7 +81,7 @@ small {
   padding: 2rem 0;
   display: flex;
   flex-wrap: wrap;
-  justify-content: flex-start;
+  justify-content: space-evenly;
   gap: 1.5rem;
 }
 

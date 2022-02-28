@@ -47,15 +47,16 @@ function renderPasswords () {
 
 }
 
-// function copyToClipboard() {
-//   var copyText = document.getElementById("content").value;
-//   navigator.clipboard.writeText(copyText).then(() => {
-//       alert("Copied to clipboard");
-//   });
-// }
+/* example navigator.clipboard function
+  function copyToClipboard() {
+    var copyText = document.getElementById("content").value;
+    navigator.clipboard.writeText(copyText).then(() => {
+       alert("Copied to clipboard");
+    });
+  }
+*/
 
 function addClickToCopy() {
-// const addCopy = () => {
   passwords.forEach(function(pw) {
     pw.addEventListener('click', function(e) {
       // console.log(e.target.textContent);
@@ -64,7 +65,7 @@ function addClickToCopy() {
       navigator.clipboard.writeText(copyText).then(() => {
         alert('copied to clipboard')
       })
-    });
+    })
   })
 }
 
