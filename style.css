@@ -136,3 +136,12 @@ button:active {
   font-size: var(--fs-500);
   letter-spacing: 1.5px;
 }
+
+.generated-pw {
+  cursor: pointer;
+}
+
+.generated-pw:hover,
+.generated-pw:active {
+  color: peru;
+}
